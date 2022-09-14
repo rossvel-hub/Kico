@@ -7,3 +7,33 @@
 .App {
   text-align: center;
 }
+
+a{
+  color: inherit;
+}
+
+/*--- navbar ---*/
+.navbar{
+  height: 100px;
+}
+.navbar-brand{
+  width: 55px;
+}
+
+.navbar-main .active {
+  text-decoration: underline wavy purple;
+  text-underline-offset: 9px;
+}
+
+/*--- home ---*/
+.home{
+  margin-top: 100px;
+}
+
+.nosotros{
+  margin-top: 100px;
+}
+
+.contacto{
+  margin-top: 100px;
+}
