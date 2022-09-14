@@ -37,3 +37,8 @@ a{
 .contacto{
   margin-top: 100px;
 }
+
+.img-carusel{
+  height: 500px;
+  width: 500px;
+}

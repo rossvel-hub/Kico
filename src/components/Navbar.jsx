@@ -7,13 +7,12 @@ const Navbar = () => {
         <div className="container mt-5">
           <a class="navbar-brand" href="#">
             <img
-              src="/kicoo.png"
+              src="/kiko.png"
               alt="Logo"
-              width="30"
-              height="30"
+              width="150"
+              height="70"
               className="d-inline-block align-text-top"
             />
-            KICO
           </a>
 
           <button
