@@ -92,10 +92,7 @@ const Footer = () => {
 
           <section className="mb-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti dicta,
-              aliquam sequi voluptate quas.
+            Yo tengo el sueño de que un día cada valle será exaltado, cada colina y montaña será bajada, los sitios escarpados serán aplanados y los sitios sinuosos serán enderezados, y que la gloria del Señor será revelada y toda la carne la verá al unísono.
             </p>
           </section>
 

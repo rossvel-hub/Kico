@@ -28,9 +28,9 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="mainNav">
             <div className="nav ms-auto text-dark">
-              <Link className='nav-link active' to="/">Inicio</Link>
-              <Link className='nav-link active' to="/nosotros">Nosotros</Link>
-              <Link className='nav-link active' to="/contacto">Contacto</Link>
+              <Link className='nav-link active link-color' to="/">Inicio</Link>
+              <Link className='nav-link active link-color' to="/nosotros">Nosotros</Link>
+              <Link className='nav-link active link-color' to="/contacto">Contacto</Link>
             </div>
           </div>
         </div>
