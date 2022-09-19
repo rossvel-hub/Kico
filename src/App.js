@@ -12,7 +12,7 @@ import Container from './components/Container';
 
 function App() {
   return (
-    <div className='container mt-5'>     
+    <div className='container mt-5 container-gral'>     
       <Router>     
       <Navbar />
       <br />
