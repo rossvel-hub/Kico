@@ -12,7 +12,7 @@ export default function Container() {
     <div className="container">
       <hr />
       {cargando ? <h1>Cargando...</h1> : <Cards results={data.results} />}
-      productos
+     
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-main">
-      <div className="container mt-5" style={{ backgroundColor: "#34E807" }}>
+      <div className="container mt-5 w-100" style={{ backgroundColor: "#34E807" }}>
         <a class="navbar-brand" href="#">
           <img
             src="/rmlogo.png"
