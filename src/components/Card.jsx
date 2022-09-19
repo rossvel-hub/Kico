@@ -10,7 +10,7 @@ const Card = ({ url }) => {
       {cargando ? (
         <h6>Cargando</h6>
       ) : (
-        <div className="card border-secondary mb-3" style={{ width: "18rem" }}>
+        <div className="card border-secondary mb-3" style={{ width: "21rem" }}>
           <div className="card-body text-bg-dark p-3 card-style">
             <img src={data.image} class="card-img-top" alt="imagen" />
           </div>
@@ -20,7 +20,6 @@ const Card = ({ url }) => {
           </div>
 
           <div className="card-footer text-bg-danger p-3">
-            <p className="card-text">Nombre:{data.name}</p>
             <p className="card-text">Nombre:{data.name}</p>
             <p className="card-text">Status:{data.status}</p>
             <p className="card-text">Especie:{data.species}</p>
