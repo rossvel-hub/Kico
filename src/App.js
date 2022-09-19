@@ -8,11 +8,11 @@ import NotFound from './components/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
+import Container from './components/Container';
 
 function App() {
   return (
-    <div className='container mt-5'>
-      
+    <div className='container mt-5'>     
       <Router>     
       <Navbar />
       <br />

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
-*{
+* {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-a{
+a {
   color: inherit;
 }
 
@@ -18,10 +18,11 @@ nav.navbar {
   height: 100px;
 }
 
-.navbar{
+.navbar {
   height: 100px;
 }
-.navbar-brand{
+
+.navbar-brand {
   width: 55px;
 }
 
@@ -30,24 +31,45 @@ nav.navbar {
   text-underline-offset: 9px;
 }
 
-.link-color{
+.link-color {
   color: rgb(74, 2, 92);
 }
 
 /*--- home ---*/
-.home{
+.home {
   margin-top: 70px;
 }
 
-.nosotros{
+.nosotros {
   margin-top: 70px;
 }
 
-.contacto{
+.contacto {
   margin-top: 70px;
 }
 
-.img-carusel{
+.img-carusel {
   height: 500px;
   width: 500px;
+}
+
+/*---- cards ---- */
+
+.cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-item {
+  display: flex;
+  padding: 1rem;
+}
+
+
+.card-footer {
+  background-color: #34E807 !important;
 }
