@@ -1,5 +1,7 @@
 import React from "react";
 import UseFetch from "./UseFetch";
+import Modal from "./Modal";
+
 
 const Card = ({ url }) => {
   const estado = UseFetch(url);
@@ -10,7 +12,7 @@ const Card = ({ url }) => {
       {cargando ? (
         <h6>Cargando</h6>
       ) : (
-        <div className="card border-secondary mb-3" style={{ width: "21rem" }}>
+        <div className="card border-secondary mb-3" style={{ width: "21rem" }} >
           <div className="card-body text-bg-dark p-3 card-style">
             <img src={data.image} class="card-img-top" alt="imagen" />
           </div>

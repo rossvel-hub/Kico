@@ -48,9 +48,32 @@ nav.navbar {
 .nosotros {
   margin-top: 70px;
 }
+.div-p-nosotros{
+  margin-top: 20px;
+}
 
 .contacto {
   margin-top: 70px;
+}
+
+.div-contacto{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-contacto{
+  margin: 50px;
+}
+
+.div-form{
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.size-input{
+  width: 290px;
 }
 
 .img-carusel {
