@@ -2,6 +2,7 @@ import React from "react";
 import UseFetch from "./UseFetch";
 import ModalCard from "./ModalCard";
 import { useState } from "react";
+import Button from "react-bootstrap/Button";
 
 
 
@@ -28,14 +29,14 @@ const Card = ({ url }) => {
             <h5 className="card-title">{data.id} </h5>
           </div>
 
-          <div className="card-footer text-bg-danger p-3">
+          <div className="card-footer p-3 card" style={{ backgroundColor: "#34E807" }}>
             <p className="card-text">Nombre:{data.name}</p>
             <p className="card-text">Status:{data.status}</p>
             <p className="card-text">Especie:{data.species}</p>
 
-            <button variant="primary" onClick={handleShow}>
+            <Button variant="dark" onClick={handleShow}>
         Ver mas...
-      </button>
+      </Button>
           </div>
          
          </div>

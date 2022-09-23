@@ -8,16 +8,13 @@ const ModalCard = ({show, handleClose}) => {
   return (
     <div className="container">
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+        <Modal.Header style={{backgroundColor:"#000000"}}>
+          <Modal.Title className="title-modal">Un poco de su historia...</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+        <Modal.Body>Esta serie cuenta las aventuras de Rick, un científico loco, egoísta y alcohólico que, junto a su nieto Morty, viven momentos que mezclan problemas familiares junto a viajes en el tiempo, intergalácticos o, incluso, a través del tiempo. Todo esto se vive a través de una base de humor negro y sátira profunda a la sociedad que, al tratarse de un contenido más adulto, encaja a la perfección con su público objetivo.</Modal.Body>
+        <Modal.Footer style={{backgroundColor:"#000000"}}>
+          <Button onClick={handleClose} style={{ backgroundColor: "#34E807" }}>
             Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
           </Button>
         </Modal.Footer>
       </Modal>

@@ -103,4 +103,8 @@ nav.navbar {
   border-radius: 15px;
 }
 
+/*--- MODAL ---*/
+.title-modal{
+  color: rgb(255, 255, 255);
+}
 
