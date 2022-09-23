@@ -1,11 +1,18 @@
 import React from "react";
 import UseFetch from "./UseFetch";
-import Modal from "./Modal";
+import ModalCard from "./ModalCard";
+import { useState } from "react";
+
 
 
 const Card = ({ url }) => {
   const estado = UseFetch(url);
   const { cargando, data } = estado;
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div className="container">
@@ -25,12 +32,15 @@ const Card = ({ url }) => {
             <p className="card-text">Nombre:{data.name}</p>
             <p className="card-text">Status:{data.status}</p>
             <p className="card-text">Especie:{data.species}</p>
-            <a href="#" class="btn btn-dark">
-              Ver mas...
-            </a>
+
+            <button variant="primary" onClick={handleShow}>
+        Ver mas...
+      </button>
           </div>
+         
          </div>
       )}
+       <ModalCard show={show} handleClose={handleClose} />
     </div>
   );
 };
